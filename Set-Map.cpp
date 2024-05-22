@@ -46,6 +46,7 @@ int size;
     }
 };
 
+int main () {
 MyHashSet hashSet;
     hashSet.add(1);
     hashSet.add(2);
@@ -65,3 +66,4 @@ MyHashSet hashSet;
     cout << "Updated value for key 2: " << hashMap.get(2) << endl;
     hashMap.remove(2);
     cout << "Value for key 2 after removal: " << hashMap.get(2) << endl;
+}
